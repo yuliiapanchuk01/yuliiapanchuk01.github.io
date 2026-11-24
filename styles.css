@@ -1,0 +1,104 @@
+h1, h2, h3, p, ol, ul {
+	margin: 0;
+	padding: 0;
+}
+
+* { box-sizing:border-box; }
+
+img { max-width:100%; }
+
+/************* End CSS RESETS **************/
+
+body {
+	background:url(images/paper.png);
+	color: #424242;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 30px 0;
+}
+
+#page {
+	max-width: 980px;
+	margin: auto;
+}
+
+header {
+	border-bottom: 3px solid #424242;
+	padding-bottom: 20px;
+}
+
+header, footer {
+	margin: 0 10px;
+}
+section {
+	padding:20px 0;
+}
+
+footer {
+	border-top: 3px solid #424242;
+	padding-top: 20px;
+}
+
+#about {
+	padding: 10px;
+}
+
+#projects {
+	padding: 10px;
+}
+
+.alignleft {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+/************ typography *************/
+
+h1, h2, h3 {
+	font-family: 'Bitter', serif;
+	margin-bottom:.5em;
+}
+
+h1 {
+	font-size:150%;
+	text-transform:uppercase;
+}
+
+header h1 {
+	font-size:300%;
+	margin-bottom:.1em;
+}
+
+p {
+	line-height:1.5em;
+	margin-bottom:1em;
+}
+
+ul, ol {
+	margin-bottom:1em;
+	padding-left:1.2em;
+}
+
+li {
+	margin-bottom:.5em;
+}
+
+a {
+	text-decoration:none;
+	color:#045685;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+@media only screen and (min-width: 600px) {
+	
+	main { display: flex;}
+	#about { flex: 2; }
+	#projects { flex: 1; }
+	
+}
+
+
+	
+
